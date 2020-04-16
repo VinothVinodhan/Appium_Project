@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="8.671" tests="3" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="sampleappium"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="2"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="4f6c175edb0ed3e1"/>
+    <property name="POM_ARTIFACTID" value="Appium_Project"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_111\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="Appium_Project"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\Windows\TEMP"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="WINSW_SERVICE_ID" value="Jenkins"/>
+    <property name="user.name" value="MANJU-PC$"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files (x86)"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="sampleappium"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/sampleappium/48/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#48"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Local"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="USERNAME" value="MANJU-PC$"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="48"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven\conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_111\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="6.1"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/sampleappium/48/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\Windows\TEMP"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="user.variant" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/sampleappium/display/redirect"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="C_EM64T_REDIST11" value="C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_111"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files (x86)\Common Files"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="SERVICE_ID" value="Jenkins"/>
+    <property name="COMPUTERNAME" value="MANJU-PC"/>
+    <property name="user.script" value=""/>
+    <property name="POM_GROUPID" value="test"/>
+    <property name="user.home" value="C:\Windows\system32\config\systemprofile"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-sampleappium-48"/>
+    <property name="JENKINS_SERVER_COOKIE" value="4f6c175edb0ed3e1"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Windows\system32\config\systemprofile"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven/bin;C:\Program Files\Java\jdk1.8.0_111/bin;C:\Program Files\Java\jdk1.8.0_111/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Program Files (x86)\Skype\Phone\;C:\Users\manju\Downloads\Compressed\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools;C:\Users\manju\Downloads\Compressed\android-sdk_r24.4.1-windows\android-sdk-windows\tools;C:\Program Files\nodejs\;C:\Users\manju\Downloads\Compressed\android-sdk_r24.4.1-windows\android-sdk-windows\tools;C:\Users\manju\Downloads\Compressed\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools;C:\Users\manju\Downloads\Compressed\android-sdk_r24.4.1-windows\android-sdk-windows;C:\Program Files\Git\cmd;C:\Users\manju\AppData\Local\Programs\Python\Python37-32;C:\Users\manju\AppData\Local\Programs\Python\Python37-32\Scripts;;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven"/>
+    <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12-alpha-1.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven\boot\plexus-classworlds-2.5.2.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-3.20.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 51137"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_111/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Program Files (x86)\Skype\Phone\;C:\Users\manju\Downloads\Compressed\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools;C:\Users\manju\Downloads\Compressed\android-sdk_r24.4.1-windows\android-sdk-windows\tools;C:\Program Files\nodejs\;C:\Users\manju\Downloads\Compressed\android-sdk_r24.4.1-windows\android-sdk-windows\tools;C:\Users\manju\Downloads\Compressed\android-sdk_r24.4.1-windows\android-sdk-windows\platform-tools;C:\Users\manju\Downloads\Compressed\android-sdk_r24.4.1-windows\android-sdk-windows;C:\Program Files\Git\cmd;C:\Users\manju\AppData\Local\Programs\Python\Python37-32;C:\Users\manju\AppData\Local\Programs\Python\Python37-32\Scripts;"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_111/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 23 Stepping 10, GenuineIntel"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven"/>
+    <property name="java.io.tmpdir" value="C:\Windows\TEMP\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/sampleappium/48/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\Users\manju\Desktop\Selenium\Appium_Project"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/sampleappium/"/>
+    <property name="USERDOMAIN" value="WORKGROUP"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="MAVEN_HOME" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="48"/>
+    <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="ANDROID_HOME" value="C:\Users\manju\Downloads\Compressed\android-sdk_r24.4.1-windows\android-sdk-windows"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="PROCESSOR_REVISION" value="170a"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar"/>
+    <property name="WORKSPACE" value="C:\Program Files (x86)\Jenkins\workspace\sampleappium"/>
+    <property name="maven3.interceptor.common" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar"/>
+    <property name="WINSW_EXECUTABLE" value="C:\Program Files (x86)\Jenkins\jenkins.exe"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\;C:\Users\manju\Desktop\besant\AutoIt3\AutoItX"/>
+  </properties>
+  <testcase name="healCheck" classname="consoles.Afcsushi" time="2.084">
+    <failure message="An unknown server-side error occurred while processing the command. Original error: The desired should not include both of an &apos;appPackage&apos; and a &apos;browserName&apos; (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 813 milliseconds&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;manju-PC&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The desired should not include both of an 'appPackage' and a 'browserName' (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 813 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'manju-PC', ip: '192.168.0.106', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: io.appium.java_client.android.AndroidDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:162)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:171)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:72)
+	at consoles.Afcsushi.healCheck(Afcsushi.java:118)
+]]></failure>
+    <system-out><![CDATA[04-15-2020 16:31:30 RequestAddCookies.java DEBUG [Forwarding newSession on session null to remote] protocol.RequestAddCookies 122 - CookieSpec selected: best-match
+04-15-2020 16:31:30 RequestAddCookies.java DEBUG [Forwarding newSession on session null to remote] protocol.RequestAddCookies 122 - CookieSpec selected: best-match
+04-15-2020 16:31:30 RequestAddCookies.java DEBUG [Forwarding newSession on session null to remote] protocol.RequestAddCookies 122 - CookieSpec selected: best-match
+04-15-2020 16:31:31 RequestAuthCache.java DEBUG [Forwarding newSession on session null to remote] protocol.RequestAuthCache 75 - Auth cache not set in the context
+04-15-2020 16:31:31 RequestAuthCache.java DEBUG [Forwarding newSession on session null to remote] protocol.RequestAuthCache 75 - Auth cache not set in the context
+04-15-2020 16:31:31 RequestAuthCache.java DEBUG [Forwarding newSession on session null to remote] protocol.RequestAuthCache 75 - Auth cache not set in the context
+04-15-2020 16:31:31 PoolingHttpClientConnectionManager.java DEBUG [Forwarding newSession on session null to remote] conn.PoolingHttpClientConnectionManager 215 - Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+04-15-2020 16:31:31 PoolingHttpClientConnectionManager.java DEBUG [Forwarding newSession on session null to remote] conn.PoolingHttpClientConnectionManager 246 - Connection leased: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+04-15-2020 16:31:31 PoolingHttpClientConnectionManager.java DEBUG [Forwarding newSession on session null to remote] conn.PoolingHttpClientConnectionManager 215 - Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+04-15-2020 16:31:31 PoolingHttpClientConnectionManager.java DEBUG [Forwarding newSession on session null to remote] conn.PoolingHttpClientConnectionManager 246 - Connection leased: [id: 1][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 2 of 2000; total allocated: 2 of 2000]
+04-15-2020 16:31:31 MainClientExec.java DEBUG [Forwarding newSession on session null to remote] execchain.MainClientExec 217 - Opening connection {}->http://127.0.0.1:4723
+04-15-2020 16:31:31 PoolingHttpClientConnectionManager.java DEBUG [Forwarding newSession on session null to remote] conn.PoolingHttpClientConnectionManager 215 - Connection request: [route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+04-15-2020 16:31:31 PoolingHttpClientConnectionManager.java DEBUG [Forwarding newSession on session null to remote] conn.PoolingHttpClientConnectionManager 246 - Connection leased: [id: 2][route: {}->http://127.0.0.1:4723][total kept alive: 0; route allocated: 3 of 2000; total allocated: 3 of 2000]
+04-15-2020 16:31:31 MainClientExec.java DEBUG [Forwarding newSession on session null to remote] execchain.MainClientExec 217 - Opening connection {}->http://127.0.0.1:4723
+04-15-2020 16:31:31 MainClientExec.java DEBUG [Forwarding newSession on session null to remote] execchain.MainClientExec 217 - Opening connection {}->http://127.0.0.1:4723
+04-15-2020 16:31:31 HttpClientConnectionOperator.java DEBUG [Forwarding newSession on session null to remote] conn.HttpClientConnectionOperator 113 - Connecting to /127.0.0.1:4723
+04-15-2020 16:31:31 HttpClientConnectionOperator.java DEBUG [Forwarding newSession on session null to remote] conn.HttpClientConnectionOperator 113 - Connecting to /127.0.0.1:4723
+04-15-2020 16:31:31 HttpClientConnectionOperator.java DEBUG [Forwarding newSession on session null to remote] conn.HttpClientConnectionOperator 113 - Connecting to /127.0.0.1:4723
+04-15-2020 16:31:31 HttpClientConnectionOperator.java DEBUG [Forwarding newSession on session null to remote] conn.HttpClientConnectionOperator 127 - Connection established 127.0.0.1:51143<->127.0.0.1:4723
+04-15-2020 16:31:31 MainClientExec.java DEBUG [Forwarding newSession on session null to remote] execchain.MainClientExec 238 - Executing request POST /wd/hub/session HTTP/1.1
+04-15-2020 16:31:31 MainClientExec.java DEBUG [Forwarding newSession on session null to remote] execchain.MainClientExec 243 - Target auth state: UNCHALLENGED
+04-15-2020 16:31:31 MainClientExec.java DEBUG [Forwarding newSession on session null to remote] execchain.MainClientExec 249 - Proxy auth state: UNCHALLENGED
+04-15-2020 16:31:31 HttpClientConnectionOperator.java DEBUG [Forwarding newSession on session null to remote] conn.HttpClientConnectionOperator 127 - Connection established 127.0.0.1:51145<->127.0.0.1:4723
+04-15-2020 16:31:31 MainClientExec.java DEBUG [Forwarding newSession on session null to remote] execchain.MainClientExec 238 - Executing request POST /wd/hub/session HTTP/1.1
+04-15-2020 16:31:31 MainClientExec.java DEBUG [Forwarding newSession on session null to remote] execchain.MainClientExec 243 - Target auth state: UNCHALLENGED
+04-15-2020 16:31:31 MainClientExec.java DEBUG [Forwarding newSession on session null to remote] execchain.MainClientExec 249 - Proxy auth state: UNCHALLENGED
+04-15-2020 16:31:31 HttpClientConnectionOperator.java DEBUG [Forwarding newSession on session null to remote] conn.HttpClientConnectionOperator 127 - Connection established 127.0.0.1:51144<->127.0.0.1:4723
+04-15-2020 16:31:31 MainClientExec.java DEBUG [Forwarding newSession on session null to remote] execchain.MainClientExec 238 - Executing request POST /wd/hub/session HTTP/1.1
+04-15-2020 16:31:31 MainClientExec.java DEBUG [Forwarding newSession on session null to remote] execchain.MainClientExec 243 - Target auth state: UNCHALLENGED
+04-15-2020 16:31:31 MainClientExec.java DEBUG [Forwarding newSession on session null to remote] execchain.MainClientExec 249 - Proxy auth state: UNCHALLENGED
+04-15-2020 16:31:31 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 124 - http-outgoing-0 >> POST /wd/hub/session HTTP/1.1
+04-15-2020 16:31:31 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 127 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+04-15-2020 16:31:31 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 127 - http-outgoing-0 >> Content-Length: 386
+04-15-2020 16:31:31 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 127 - http-outgoing-0 >> Host: 127.0.0.1:4723
+04-15-2020 16:31:31 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 127 - http-outgoing-0 >> Connection: Keep-Alive
+04-15-2020 16:31:31 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 127 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.3 (java 1.5)
+04-15-2020 16:31:31 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 127 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-0 >> "POST /wd/hub/session HTTP/1.1[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-0 >> "Content-Length: 386[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-0 >> "Host: 127.0.0.1:4723[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.3 (java 1.5)[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-0 >> "[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 86 - http-outgoing-0 >> "{"desiredCapabilities":{"appPackage":"com.aetherpal.enterprise","noReset":false,"dontStopAppOnReset":false,"appWaitActivity":"com.aetherpal.smartcare.ValetScueActivity","version":"8.0.0","deviceName":"LGH931391140be","fullReset":false,"platform":"ANDROID","appActivity":"com.aetherpal.smartcare.ValetScueActivity","newCommandTimeout":0,"browserName":"android","platformName":"Android"}}"
+04-15-2020 16:31:31 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 124 - http-outgoing-1 >> POST /wd/hub/session HTTP/1.1
+04-15-2020 16:31:31 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 127 - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+04-15-2020 16:31:31 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 127 - http-outgoing-1 >> Content-Length: 386
+04-15-2020 16:31:31 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 127 - http-outgoing-1 >> Host: 127.0.0.1:4723
+04-15-2020 16:31:31 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 127 - http-outgoing-1 >> Connection: Keep-Alive
+04-15-2020 16:31:31 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 127 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.3.3 (java 1.5)
+04-15-2020 16:31:31 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 127 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-1 >> "POST /wd/hub/session HTTP/1.1[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-1 >> "Content-Length: 386[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-1 >> "Host: 127.0.0.1:4723[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.3.3 (java 1.5)[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-1 >> "[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 86 - http-outgoing-1 >> "{"desiredCapabilities":{"appPackage":"com.aetherpal.enterprise","noReset":false,"dontStopAppOnReset":false,"appWaitActivity":"com.aetherpal.smartcare.ValetScueActivity","version":"8.0.0","deviceName":"LGH931391140be","fullReset":false,"platform":"ANDROID","appActivity":"com.aetherpal.smartcare.ValetScueActivity","newCommandTimeout":0,"browserName":"android","platformName":"Android"}}"
+04-15-2020 16:31:31 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 124 - http-outgoing-2 >> POST /wd/hub/session HTTP/1.1
+04-15-2020 16:31:31 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 127 - http-outgoing-2 >> Content-Type: application/json; charset=utf-8
+04-15-2020 16:31:31 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 127 - http-outgoing-2 >> Content-Length: 386
+04-15-2020 16:31:31 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 127 - http-outgoing-2 >> Host: 127.0.0.1:4723
+04-15-2020 16:31:31 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 127 - http-outgoing-2 >> Connection: Keep-Alive
+04-15-2020 16:31:31 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 127 - http-outgoing-2 >> User-Agent: Apache-HttpClient/4.3.3 (java 1.5)
+04-15-2020 16:31:31 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 127 - http-outgoing-2 >> Accept-Encoding: gzip,deflate
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-2 >> "POST /wd/hub/session HTTP/1.1[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-2 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-2 >> "Content-Length: 386[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-2 >> "Host: 127.0.0.1:4723[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-2 >> "User-Agent: Apache-HttpClient/4.3.3 (java 1.5)[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-2 >> "[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 86 - http-outgoing-2 >> "{"desiredCapabilities":{"appPackage":"com.aetherpal.enterprise","noReset":false,"dontStopAppOnReset":false,"appWaitActivity":"com.aetherpal.smartcare.ValetScueActivity","version":"8.0.0","deviceName":"LGH931391140be","fullReset":false,"platform":"ANDROID","appActivity":"com.aetherpal.smartcare.ValetScueActivity","newCommandTimeout":0,"browserName":"android","platformName":"Android"}}"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-1 << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-1 << "X-Powered-By: Express[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-1 << "Vary: X-HTTP-Method-Override[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-1 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-1 << "Content-Length: 211[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-1 << "ETag: W/"d3-xxfBrvFh8h9+6EL+pNHI6a3McW4"[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-1 << "Date: Wed, 15 Apr 2020 11:01:31 GMT[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-1 << "[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 86 - http-outgoing-1 << "{"status":13,"value":{"message":"An unknown server-side error occurred while processing the command. Original error: The desired should not include both of an 'appPackage' and a 'browserName'"},"sessionId":null}"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-2 << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-2 << "X-Powered-By: Express[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-2 << "Vary: X-HTTP-Method-Override[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-2 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-2 << "Content-Length: 211[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-2 << "ETag: W/"d3-xxfBrvFh8h9+6EL+pNHI6a3McW4"[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-2 << "Date: Wed, 15 Apr 2020 11:01:31 GMT[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-2 << "Connection: keep-alive[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-2 << "[\r][\n]"
+04-15-2020 16:31:31 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 86 - http-outgoing-2 << "{"status":13,"value":{"message":"An unknown server-side error occurred while processing the command. Original error: The desired should not include both of an 'appPackage' and a 'browserName'"},"sessionId":null}"
+04-15-2020 16:31:31 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 113 - http-outgoing-2 << HTTP/1.1 500 Internal Server Error
+04-15-2020 16:31:31 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 116 - http-outgoing-2 << X-Powered-By: Express
+04-15-2020 16:31:31 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 116 - http-outgoing-2 << Vary: X-HTTP-Method-Override
+04-15-2020 16:31:31 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 113 - http-outgoing-1 << HTTP/1.1 500 Internal Server Error
+04-15-2020 16:31:31 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 116 - http-outgoing-1 << X-Powered-By: Express
+04-15-2020 16:31:31 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 116 - http-outgoing-1 << Vary: X-HTTP-Method-Override
+04-15-2020 16:31:31 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 116 - http-outgoing-1 << Content-Type: application/json; charset=utf-8
+04-15-2020 16:31:31 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 116 - http-outgoing-1 << Content-Length: 211
+04-15-2020 16:31:31 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 116 - http-outgoing-1 << ETag: W/"d3-xxfBrvFh8h9+6EL+pNHI6a3McW4"
+04-15-2020 16:31:31 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 116 - http-outgoing-1 << Date: Wed, 15 Apr 2020 11:01:31 GMT
+04-15-2020 16:31:31 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 116 - http-outgoing-1 << Connection: keep-alive
+04-15-2020 16:31:31 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 116 - http-outgoing-2 << Content-Type: application/json; charset=utf-8
+04-15-2020 16:31:31 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 116 - http-outgoing-2 << Content-Length: 211
+04-15-2020 16:31:31 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 116 - http-outgoing-2 << ETag: W/"d3-xxfBrvFh8h9+6EL+pNHI6a3McW4"
+04-15-2020 16:31:31 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 116 - http-outgoing-2 << Date: Wed, 15 Apr 2020 11:01:31 GMT
+04-15-2020 16:31:31 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 116 - http-outgoing-2 << Connection: keep-alive
+04-15-2020 16:31:31 MainClientExec.java DEBUG [Forwarding newSession on session null to remote] execchain.MainClientExec 267 - Connection can be kept alive indefinitely
+04-15-2020 16:31:31 MainClientExec.java DEBUG [Forwarding newSession on session null to remote] execchain.MainClientExec 267 - Connection can be kept alive indefinitely
+04-15-2020 16:31:31 PoolingHttpClientConnectionManager.java DEBUG [Forwarding newSession on session null to remote] conn.PoolingHttpClientConnectionManager 276 - Connection [id: 2][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+04-15-2020 16:31:31 PoolingHttpClientConnectionManager.java DEBUG [Forwarding newSession on session null to remote] conn.PoolingHttpClientConnectionManager 282 - Connection released: [id: 2][route: {}->http://127.0.0.1:4723][total kept alive: 1; route allocated: 3 of 2000; total allocated: 3 of 2000]
+04-15-2020 16:31:31 PoolingHttpClientConnectionManager.java DEBUG [Forwarding newSession on session null to remote] conn.PoolingHttpClientConnectionManager 276 - Connection [id: 1][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+04-15-2020 16:31:31 PoolingHttpClientConnectionManager.java DEBUG [Forwarding newSession on session null to remote] conn.PoolingHttpClientConnectionManager 282 - Connection released: [id: 1][route: {}->http://127.0.0.1:4723][total kept alive: 2; route allocated: 3 of 2000; total allocated: 3 of 2000]
+]]></system-out>
+  </testcase>
+  <testcase name="healCheck" classname="consoles.Spireon" time="2.09">
+    <failure message="An unknown server-side error occurred while processing the command. Original error: The desired should not include both of an &apos;appPackage&apos; and a &apos;browserName&apos; (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 811 milliseconds&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;manju-PC&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The desired should not include both of an 'appPackage' and a 'browserName' (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 811 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'manju-PC', ip: '192.168.0.106', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: io.appium.java_client.android.AndroidDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:162)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:171)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:72)
+	at consoles.Spireon.healCheck(Spireon.java:117)
+]]></failure>
+  </testcase>
+  <testcase name="healCheck" classname="consoles.ProdR3" time="4.497">
+    <failure message="An unknown server-side error occurred while processing the command. Original error: The desired should not include both of an &apos;appPackage&apos; and a &apos;browserName&apos; (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 3.27 seconds&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;manju-PC&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The desired should not include both of an 'appPackage' and a 'browserName' (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3.27 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'manju-PC', ip: '192.168.0.106', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: io.appium.java_client.android.AndroidDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:162)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:171)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:72)
+	at consoles.ProdR3.healCheck(ProdR3.java:134)
+]]></failure>
+    <system-out><![CDATA[04-15-2020 16:31:33 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-0 << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+04-15-2020 16:31:33 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+04-15-2020 16:31:33 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+04-15-2020 16:31:33 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+04-15-2020 16:31:33 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-0 << "Content-Length: 211[\r][\n]"
+04-15-2020 16:31:33 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-0 << "ETag: W/"d3-xxfBrvFh8h9+6EL+pNHI6a3McW4"[\r][\n]"
+04-15-2020 16:31:33 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-0 << "Date: Wed, 15 Apr 2020 11:01:33 GMT[\r][\n]"
+04-15-2020 16:31:33 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+04-15-2020 16:31:33 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 72 - http-outgoing-0 << "[\r][\n]"
+04-15-2020 16:31:33 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 86 - http-outgoing-0 << "{"status":13,"value":{"message":"An unknown server-side error occurred while processing the command. Original error: The desired should not include both of an 'appPackage' and a 'browserName'"},"sessionId":null}"
+04-15-2020 16:31:33 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 113 - http-outgoing-0 << HTTP/1.1 500 Internal Server Error
+04-15-2020 16:31:33 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 116 - http-outgoing-0 << X-Powered-By: Express
+04-15-2020 16:31:33 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 116 - http-outgoing-0 << Vary: X-HTTP-Method-Override
+04-15-2020 16:31:33 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 116 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+04-15-2020 16:31:33 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 116 - http-outgoing-0 << Content-Length: 211
+04-15-2020 16:31:33 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 116 - http-outgoing-0 << ETag: W/"d3-xxfBrvFh8h9+6EL+pNHI6a3McW4"
+04-15-2020 16:31:33 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 116 - http-outgoing-0 << Date: Wed, 15 Apr 2020 11:01:33 GMT
+04-15-2020 16:31:33 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 116 - http-outgoing-0 << Connection: keep-alive
+04-15-2020 16:31:33 MainClientExec.java DEBUG [Forwarding newSession on session null to remote] execchain.MainClientExec 267 - Connection can be kept alive indefinitely
+04-15-2020 16:31:33 PoolingHttpClientConnectionManager.java DEBUG [Forwarding newSession on session null to remote] conn.PoolingHttpClientConnectionManager 276 - Connection [id: 0][route: {}->http://127.0.0.1:4723] can be kept alive indefinitely
+04-15-2020 16:31:33 PoolingHttpClientConnectionManager.java DEBUG [Forwarding newSession on session null to remote] conn.PoolingHttpClientConnectionManager 282 - Connection released: [id: 0][route: {}->http://127.0.0.1:4723][total kept alive: 3; route allocated: 3 of 2000; total allocated: 3 of 2000]
+]]></system-out>
+  </testcase>
+</testsuite>

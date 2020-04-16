@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="38144" started-at="2018-10-08T03:33:00Z" finished-at="2018-10-08T03:33:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="38144" started-at="2018-10-08T03:33:00Z" finished-at="2018-10-08T03:33:39Z">
+      <class name="whatsapp_Automation.Message">
+        <test-method status="PASS" signature="messageApp()[pri:0, instance:whatsapp_Automation.Message@704d6e83]" name="messageApp" duration-ms="38077" started-at="2018-10-08T03:33:01Z" finished-at="2018-10-08T03:33:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageApp -->
+      </class> <!-- whatsapp_Automation.Message -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
